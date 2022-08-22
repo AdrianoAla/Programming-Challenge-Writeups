@@ -161,7 +161,7 @@ bool vote(string name)
 
 ## `print_winner` Function
 
-The `print_winner` must calculate the winner or winners and print them out to the screen, while I am sure that there are many ways that one can approach this problem, the solution I came up with is as follows:
+The `print_winner` function must calculate the winner or winners and print them out to the screen, while I am sure that there are many ways that one can approach this problem, the solution I came up with is as follows:
  1. Take the list of candidates and sort them in descending order.
  2. We'll create a variable `n` with value 0.
  3. Take the `n`th element of this list and print it to the screen, we are certain this is ***a*** winner, but we are not sure if it is the ***only*** winner.
